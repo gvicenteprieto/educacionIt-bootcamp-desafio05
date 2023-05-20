@@ -16,50 +16,61 @@ body {
     background-color: #4C7B9D;
 }
 
+/*** header ***/
 header {
     background-color: #E03649;
-   position: sticky; 
-   padding: 1rem;
-}   
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+}
+
 header h1 {
     font-size: 2rem;
     color: #ffffff;
     font-family: 'Lobster', cursive;
 }
 
-
-
-main section  {
+/*** main ***/
+main section {
     background-color: #ACDADC;
     padding: 1rem;
-    margin: 1rem;
+    margin: 2rem 7rem;
     border-radius: 1rem;
     text-align: justify;
 }
 
-main section article h2 {
-    font-size: 1.5rem;
+main section header {
+    background-color: #ACDADC;
     padding: 1rem;
+    border-radius: 1rem;
+    text-align: justify;
+}
+
+main section article header h2 {
+    font-size: 2rem;
     color: #E03649;
     font-family: 'Lobster', cursive;
-    background-color: #ACDADC;
     text-align: center;
 }
 
-main section p {
-    margin: 1rem;
-    text-transform:initial;
+main section article main p {
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    color: #333;
 }
 
-main section p:first {
-    font-family: 'Lobster', cursive;
-    font-size: 2rem;
+main section article main p:first-child {
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #333;
 }
 
-
-main section p:first-letter {
+main section article main p:first-letter {
     font-family: 'Lobster', cursive;
     font-size: 2rem;
     font-weight: bold;
@@ -72,13 +83,15 @@ main footer figure {
     text-align: center;
     height: auto;
 }
-main footer figure img{
+
+main footer figure img {
     padding: 0;
     margin: 0;
     text-align: center;
-width: auto;
+    width: auto;
 }
 
+/*** header ***/
 footer figure img {
     margin: 0;
     padding: 0;
