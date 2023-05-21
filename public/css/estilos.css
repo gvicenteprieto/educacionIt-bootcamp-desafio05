@@ -6,13 +6,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*** HTML ***/
 
+/*** HTML ***/
 html {
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 18px;
     text-align: center;
 }
+
 /*** Body ***/
 .Body {
     background-color: #4C7B9D;
@@ -31,44 +32,44 @@ html {
 }
 
 .Header h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #ffffff;
     font-family: 'Lobster', cursive;
 }
 
-
 /*** Main ***/
-
 .Main{
     background-image: url(../images/ciudad.png);
     background-repeat: repeat-x;
     background-position:bottom;
     background-attachment: fixed;
-    background-size: 100rem;
-
+    background-size: 100vw;
 }
+
 
 .Main section:first-child {
     background-color: #ACDADC;
     padding: 1rem;
-    margin: 2rem 7rem;
+    margin: 2rem 10%;
     border-radius: 1rem;
-    text-align: justify;
+    text-align: left;
+    box-shadow: inset 3px 3px 1rem rgb(123, 123, 123);
 }
 
 .Main section header {
+    margin-top: 2rem;
     background-color: #ACDADC;
     padding: 1rem;
-    border-radius: 1rem;
     text-align: justify;
 }
-.Main section article{margin-bottom: 0;}
 
 .Main section article header h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #E03649;
     font-family: 'Lobster', cursive;
     text-align: center;
+    font-weight: 300;
+    text-shadow: 1px 0px rgb(81, 81, 81);
 }
 
 .Main section article main p {
@@ -77,29 +78,38 @@ html {
     color: #333;
 }
 
+
 .Main section article main p:first-child {
-    margin: 1rem;
+    margin: .1rem;
+    font-family: 'Trebuchet MS', sans-serif;
     text-align: center;
     font-size: 1.5rem;
-    font-weight: bold;
-    color: #333;
+    font-weight: 300;
 }
+
+
+.Main section article main p:first-child::before {
+    content: "-";
+}
+.Main section article main p:first-child::after {
+    content: "-";
+}
+
 
 .Main section article main p:first-letter {
     font-family: 'Lobster', cursive;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     color: #333;
 }
+
 .Main section article:nth-child(2){
     margin-bottom: 7rem;
 }
-
 
 .Main section article aside picture img{
     padding: 0;
     margin-top: -6rem;
     margin-bottom: 10rem;
     text-align: center;
-    height: auto;
 }
