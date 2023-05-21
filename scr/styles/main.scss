@@ -1,0 +1,74 @@
+
+.Main {
+    background-image: url(../images/ciudad.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: 100vw;
+  
+    section {
+      &:first-child {
+        background-color: #ACDADC;
+        padding: 1rem;
+        margin: 2rem 10%;
+        border-radius: 1rem;
+        text-align: left;
+        box-shadow: inset 3px 3px 1rem rgb(123, 123, 123);
+      }
+  
+      header {
+        margin-top: 2rem;
+        background-color: #ACDADC;
+        padding: 1rem;
+        text-align: justify;
+      }
+  
+      article {
+        header h2 {
+          font-size: 2.5rem;
+          color: #E03649;
+          font-family: 'Lobster', cursive;
+          text-align: center;
+          font-weight: 300;
+          text-shadow: 1px 0px rgb(81, 81, 81);
+        }
+  
+        main p {
+          margin: 1.5rem;
+          font-size: 1.5rem;
+          color: #333;
+  
+          &:first-child {
+            margin: .1rem;
+            font-family: 'Trebuchet MS', sans-serif;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 300;
+  
+            &::before, &::after {
+              content: "-";
+            }
+          }
+  
+          &:first-letter {
+            font-family: 'Lobster', cursive;
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #333;
+          }
+        }
+  
+        &:nth-child(2) {
+          margin-bottom: 7rem;
+        }
+  
+        aside picture img {
+          padding: 0;
+          margin-top: -6rem;
+          margin-bottom: 10rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+  
