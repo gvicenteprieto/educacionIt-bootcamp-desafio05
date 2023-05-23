@@ -1,9 +1,9 @@
 
-## Bootcamp Full Stack Engineer > educaciónIT
+# Bootcamp Full Stack Engineer > educaciónIT
 
 ## Entrega Desafío Grupal
 
-
+## BC_Desafio05_Joquín-Enriquez-Marin_Guillermo-Vicente
 
 ### Authors
 
@@ -11,27 +11,22 @@
 
 - [Guillermo Vicente](https://github.com/gvicenteprieto)
 
-
 ### Tech Stack
 
-**Node.js® :** https://nodejs.org/
+**Node.js® :** <https://nodejs.org/>
 
-**Sass:**      https://sass-lang.com/
-
-
+**Sass:**      <https://sass-lang.com/>
 
 ### Run Locally
 
-Clone the project
-
-Go to the project directory
-
-
-Install dependencies
+- Clone the project
+- Go to the project directory
+- Install dependencies
 
 ```bash
   npm install -g sass
 ```
 
 #### Usage/Example Sass
+
 sass --watch scr/styles.sass:public/styles.css
