@@ -1,18 +1,18 @@
 @use "_h-fonts.scss" as F;
+@use "_h-colors.scss" as C;
 
 /*HTML*/
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 html{
-  font-family: F.$font-family;
-  font-weight: F.$fontWeight ;
-  font-size: F.$fontSize;
+  font: F.$font-family-1, F.$fontSize, F.$fontWeight;
   text-align: center;
 }
+
 .Body {
-  background-color: #4C7B9D;
+  background-color: C.$c-blue;
 }

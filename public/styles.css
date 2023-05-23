@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 /*HTML*/
 * {
   margin: 0;
@@ -7,9 +10,7 @@
 }
 
 html {
-  font-family: "Trebuchet MS", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
+  font: "Trebuchet MS", sans-serif, 18px, 400;
   text-align: center;
 }
 
@@ -28,9 +29,9 @@ html {
   text-align: center;
 }
 .Header h1 {
-  font-size: 2.5rem;
   color: #ffffff;
   font-family: "Lobster", cursive;
+  font-size: 2.5rem;
 }
 
 /*Main*/

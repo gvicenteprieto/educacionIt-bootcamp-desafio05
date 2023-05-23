@@ -1,4 +1,5 @@
 @use "_h-colors.scss" as C;
+@use "_h-fonts.scss" as F;
 
 /*Header*/
 .Header {
@@ -11,9 +12,9 @@
     text-align: center;
   
     h1 {
-      font-size: 2.5rem;
       color: C.$c-white;
-      font-family: 'Lobster', cursive;
+      font-family: F.$font-family-2;
+      font-size: 2.5rem;
     }
   }
 
