@@ -1,5 +1,8 @@
+@use "_h-colors.scss" as C;
+
+/*Header*/
 .Header {
-    background-color: #E03649;
+    background-color: C.$c-red;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -9,7 +12,8 @@
   
     h1 {
       font-size: 2.5rem;
-      color: #ffffff;
+      color: C.$c-white;
       font-family: 'Lobster', cursive;
     }
   }
+

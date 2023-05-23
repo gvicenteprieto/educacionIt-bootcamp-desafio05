@@ -1,6 +1,9 @@
+@use "./h-colors.scss" as C;
+
+/*Main*/
 
 .Main {
-    background-image: url(../../public/images/ciudad.png);
+    background-image: url(./images/ciudad.png);
     background-repeat: repeat-x;
     background-position: bottom;
     background-attachment: fixed;
@@ -8,17 +11,17 @@
   
     section {
       &:first-child {
-        background-color: #ACDADC;
+        background-color: C.$c-cian;
         padding: 1rem;
         margin: 2rem 10%;
         border-radius: 1rem;
         text-align: left;
-        box-shadow: inset 3px 3px 1rem rgb(123, 123, 123);
+        box-shadow: inset 3px 3px 1rem C.$c-gray;
       }
   
       header {
         margin-top: 2rem;
-        background-color: #ACDADC;
+        background-color: C.$c-cian;
         padding: 1rem;
         text-align: justify;
       }
@@ -26,17 +29,17 @@
       article {
         header h2 {
           font-size: 2.5rem;
-          color: #E03649;
+          color: C.$c-red;
           font-family: 'Lobster', cursive;
           text-align: center;
           font-weight: 300;
-          text-shadow: 1px 0px rgb(81, 81, 81);
+          text-shadow: 1px 0px C.$c-gray;
         }
   
         main p {
           margin: 1.5rem;
           font-size: 1.5rem;
-          color: #333;
+          color: C.$c-black;
   
           &:first-child {
             margin: .1rem;
@@ -54,7 +57,7 @@
             font-family: 'Lobster', cursive;
             font-size: 2.5rem;
             font-weight: bold;
-            color: #333;
+            color: C.$c-black;
           }
         }
   

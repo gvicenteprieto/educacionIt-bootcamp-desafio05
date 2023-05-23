@@ -1,7 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+/*HTML*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
 .Body {
   background-color: #4C7B9D;
 }
 
+/*Header*/
 .Header {
   background-color: #E03649;
   position: sticky;
@@ -17,8 +33,9 @@
   font-family: "Lobster", cursive;
 }
 
+/*Main*/
 .Main {
-  background-image: url(../../public/images/ciudad.png);
+  background-image: url(./images/ciudad.png);
   background-repeat: repeat-x;
   background-position: bottom;
   background-attachment: fixed;
@@ -30,7 +47,7 @@
   margin: 2rem 10%;
   border-radius: 1rem;
   text-align: left;
-  box-shadow: inset 3px 3px 1rem rgb(123, 123, 123);
+  box-shadow: inset 3px 3px 1rem rgb(81, 81, 81);
 }
 .Main section header {
   margin-top: 2rem;
@@ -77,14 +94,4 @@
   text-align: center;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-family: "Trebuchet MS", sans-serif;
-  font-size: 18px;
-  text-align: center;
-}/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.css.map */
